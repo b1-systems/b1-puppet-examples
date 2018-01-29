@@ -1,0 +1,4 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+\A\$([a-z][a-z0-9_]*)?(::[a-z][a-z0-9_]*)*::[a-zA-Z0-9_]+\Z

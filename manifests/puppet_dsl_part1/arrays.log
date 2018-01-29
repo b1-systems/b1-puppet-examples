@@ -1,0 +1,11 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Notice: Compiled catalog for puppet.local.site in environment production in 0.09 seconds
+Notice: $array[0]: eins
+Notice: /Stage[main]/Main/Notify[$array[0]: eins]/message: defined 'message' as '$array[0]: eins'
+Notice: $array[2]: 3
+Notice: /Stage[main]/Main/Notify[$array[2]: 3]/message: defined 'message' as '$array[2]: 3'
+Notice: $array[-1]: vier
+Notice: /Stage[main]/Main/Notify[$array[-1]: vier]/message: defined 'message' as '$array[-1]: vier'
+Notice: Applied catalog in 0.03 seconds

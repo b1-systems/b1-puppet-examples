@@ -1,0 +1,4 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Error: Evaluation Error: Error while evaluating a Resource Statement, Evaluation Error: Error while evaluating a Function Call, false is not a string.  It looks to be a FalseClass at /vagrant/validate_usage.pp:4:3  at /vagrant/validate_usage.pp:9 on node puppet.local.site

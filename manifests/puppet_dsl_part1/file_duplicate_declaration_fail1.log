@@ -1,0 +1,5 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Error: Duplicate declaration: File[/tmp/testdatei] is already declared in file file_duplicate_declaration_fail1.pp:3; cannot redeclare at file_duplicate_declaration_fail1.pp:7 on node puppet.local.site
+Error: Duplicate declaration: File[/tmp/testdatei] is already declared in file file_duplicate_declaration_fail1.pp:3; cannot redeclare at file_duplicate_declaration_fail1.pp:7 on node puppet.local.site

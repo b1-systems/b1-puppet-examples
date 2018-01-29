@@ -1,0 +1,6 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Error: Evaluation Error: Error while evaluating a Resource Statement, Class[Users]:
+  parameter 'users' entry 'john' entry 'home' expects a match for Pattern[/^\/.*/], got String
+  parameter 'users' entry 'jim' entry 'home' expects a match for Pattern[/^\/.*/], got String at /vagrant/type_hash2.pp:15:1 on node puppet.local.site

@@ -1,0 +1,20 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+user { 'root':
+  ensure           => 'present',
+  comment          => 'root',
+  gid              => '0',
+  home             => '/root',
+  password         => '<PASSWORD_HASH>'
+  password_max_age => '99999',
+  password_min_age => '0',
+  shell            => '/bin/bash',
+  uid              => '0',
+}
+Notice: /File[/tmp/testfile42]/ensure: defined content as
+'{md5}c8afdb36c52cf4727836669019e69222'
+file { '/tmp/testfile42':
+  ensure  => 'file',
+  content => '{md5}c8afdb36c52cf4727836669019e69222',
+}

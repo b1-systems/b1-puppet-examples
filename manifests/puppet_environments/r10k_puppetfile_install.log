@@ -1,0 +1,9 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+INFO     -> Updating module /vagrant/modules/stdlib
+INFO     -> Updating module /vagrant/modules/ntp
+INFO     -> Updating module /vagrant/modules/puppetdb
+INFO     -> Updating module /vagrant/modules/apache
+INFO     -> Updating module /vagrant/modules/test42
+INFO     -> Removing unmanaged path /vagrant/modules/test43

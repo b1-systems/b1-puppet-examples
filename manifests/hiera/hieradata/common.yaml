@@ -1,0 +1,12 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+---
+continent: Atlantis
+hieratest::widgets:
+  - 'common1'
+  - 'common2'
+my_ntpservers:
+  - de.pool.ntp.org
+  - time.apple.com
+backup_server: 'foobar.example.com'

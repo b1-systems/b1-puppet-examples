@@ -1,0 +1,19 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Dieses Template wird im Manifest variable-lookup.pp benutzt
+
+Simples Template, welches verschiedene Arten des Zugriffs
+auf Variablen beschreibt:
+
+@variable geht für Variablen im aktuellen und Top-Level Scope,
+z.B. Werte aus facter: <%= @hostname %>
+
+scope.lookupvar['variable'] wird benutzt, um auf Variablen in einem fremden Scope zuzugreifen.
+Beispiel: Aus Klasse1 moechte ich auf eine Variable der Klasse2 zugreifen:
+
+<%= scope.lookupvar('class2::myvar') %>
+
+In Puppet 3 ist noch eine kuerzere Varinaten verfuegbar: scope['variable']
+
+<%= scope['class2::myvar'] %>

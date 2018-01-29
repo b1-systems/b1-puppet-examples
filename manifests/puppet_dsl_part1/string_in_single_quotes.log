@@ -1,0 +1,7 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Notice: Compiled catalog for puppet.local.site in environment production in 0.08 seconds
+Notice: Ohne Interpolation:\n $variable
+Notice: /Stage[main]/Main/Notify[Ohne Interpolation:\n $variable]/message: defined 'message' as 'Ohne Interpolation:\n $variable'
+Notice: Applied catalog in 0.03 second

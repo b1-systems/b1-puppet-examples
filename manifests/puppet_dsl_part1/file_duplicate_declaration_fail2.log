@@ -1,0 +1,4 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Error: Cannot alias File[datei2] to ["/tmp/testdatei"] at file_duplicate_declaration_fail2.pp:9; resource ["File", "/tmp/testdatei"] already declared at file_duplicate_declaration_fail2.pp:4

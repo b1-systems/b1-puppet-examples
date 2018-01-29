@@ -1,0 +1,44 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Searching for "lookup_options"
+  Global Data Provider (hiera configuration version 5)
+    Using configuration "/etc/puppetlabs/puppet/hiera.yaml"
+    Hierarchy entry "Normal data"
+      Merge strategy hash
+        Path "/etc/puppetlabs/puppet/data/nodes/foreman.training.b1.yaml"
+          Original path: "nodes/%{trusted.certname}.yaml"
+          Path not found
+        Path "/etc/puppetlabs/puppet/data/common.yaml"
+          Original path: "common.yaml"
+          Path not found
+  Environment Data Provider (hiera configuration version 5)
+    Using configuration "/etc/puppetlabs/code/environments/production/hiera.yaml"
+    Hierarchy entry "Normal data"
+      Merge strategy hash
+        Path "/etc/puppetlabs/code/environments/production/data/nodes/foreman.training.b1.yaml"
+          Original path: "nodes/%{trusted.certname}.yaml"
+          Path not found
+        Path "/etc/puppetlabs/code/environments/production/data/common.yaml"
+          Original path: "common.yaml"
+          No such key: "lookup_options"
+Searching for "foo"
+  Global Data Provider (hiera configuration version 5)
+    Using configuration "/etc/puppetlabs/puppet/hiera.yaml"
+    Hierarchy entry "Normal data"
+      Path "/etc/puppetlabs/puppet/data/nodes/foreman.training.b1.yaml"
+        Original path: "nodes/%{trusted.certname}.yaml"
+        Path not found
+      Path "/etc/puppetlabs/puppet/data/common.yaml"
+        Original path: "common.yaml"
+        Path not found
+  Environment Data Provider (hiera configuration version 5)
+    Using configuration "/etc/puppetlabs/code/environments/production/hiera.yaml"
+    Hierarchy entry "Normal data"
+      Path "/etc/puppetlabs/code/environments/production/data/nodes/foreman.training.b1.yaml"
+        Original path: "nodes/%{trusted.certname}.yaml"
+        Path not found
+      Path "/etc/puppetlabs/code/environments/production/data/common.yaml"
+        Original path: "common.yaml"
+        Found key: "foo" value: "bar"
+

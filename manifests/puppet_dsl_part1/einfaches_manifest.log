@@ -1,0 +1,10 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Notice: Compiled catalog for puppet.training.b1-systems.de in environment production in 0.08 seconds
+Notice: /Stage[main]/Main/File[meine testdatei]/ensure: created
+Notice: This is only a test
+Notice: /Stage[main]/Main/Notify[Testnachricht]/message: defined 'message' as 'This is only a test'
+Notice: Hello World
+Notice: /Stage[main]/Main/Notify[Hello World]/message: defined 'message' as 'Hello World'
+Notice: Applied catalog in 0.06 seconds

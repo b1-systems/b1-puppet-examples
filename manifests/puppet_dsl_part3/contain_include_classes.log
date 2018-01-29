@@ -1,0 +1,11 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Notice: Compiled catalog for puppet.local.site in environment production in 0.18 seconds
+Notice: /Stage[main]/Ntp/Package[ntp]/ensure: created
+Notice: /Stage[main]/Ntp/File[/etc/ntp.conf]/content: content changed '{md5}dc9e5754ad2bb6f6c32b954c04431d0a' to '{md5}64918d39fca3b859f23637f98e008234'
+Notice: /Stage[main]/Main/Exec[/bin/head /etc/ntp.conf]/returns: # Managed by puppet
+Notice: /Stage[main]/Main/Exec[/bin/head /etc/ntp.conf]/returns: # Empty ntp.conf
+Notice: /Stage[main]/Main/Exec[/bin/head /etc/ntp.conf]/returns: executed successfully
+Notice: /Stage[main]/Ntp::Service/Service[ntpd]/ensure: ensure changed 'stopped' to 'running'
+Notice: Finished catalog run in 1.39 seconds

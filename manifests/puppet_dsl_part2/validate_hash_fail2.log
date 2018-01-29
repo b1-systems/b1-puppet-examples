@@ -1,0 +1,4 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Error: Evaluation Error: Error while evaluating a Function Call, [true, "String"] is not a Hash.  It looks to be a Array at /vagrant/validate_hash_fail2.pp:1:1 on node puppet.local.site

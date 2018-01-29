@@ -1,0 +1,22 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+# lookup( name, type, merge behaviour, default )
+# alternativ lookup( options_hash )
+
+lookup('backup_server')
+
+lookup('backup_server', String, 'first', 'bareos.example.com')
+
+lookup({
+  'name'       => 'my_ntpservers',
+  'value_type' => Array,
+  'merge'      => 'unique',
+})
+
+lookup({ 'name'  => 'users',
+  'merge' => {
+    'strategy'        => 'deep',
+    'knockout_prefix' => '--',
+  },
+})

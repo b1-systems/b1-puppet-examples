@@ -1,0 +1,8 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+INFO     -> Deploying environment /etc/puppetlabs/code/environments/production
+INFO     -> Environment production is now at 11e73720d1d6ad68f1f6b42e3a454ff8fb97ae17
+INFO     -> Deploying Puppetfile content /etc/puppetlabs/code/environments/production/modules/stdlib
+INFO     -> Deploying Puppetfile content /etc/puppetlabs/code/environments/production/modules/ntp
+INFO     -> Deploying Puppetfile content /etc/puppetlabs/code/environments/production/modules/puppetdb

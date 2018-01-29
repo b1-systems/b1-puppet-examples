@@ -1,0 +1,15 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+---
+version: 5
+defaults:
+  datadir: data
+  data_hash: yaml_data
+hierarchy:
+  - name: "OS family"
+    path: "os/%{facts.os.family}.yaml"
+
+# optional: common data for all
+#  - name: "common"
+#    path: "common.yaml"

@@ -1,0 +1,16 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+facter
+augeas => {
+  version => "1.7.0"
+}
+disks => {
+  sda => {
+    model => "Samsung SSD 840",
+    size => "465.76 GiB",
+    size_bytes => 500107862016,
+    vendor => "ATA"
+  }
+}
+[...]

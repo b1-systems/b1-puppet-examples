@@ -1,0 +1,14 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+<%
+  # Ruby Kommentar
+  my_memsize = Float(@memorysize_mb)
+  if my_memsize <= 1024
+    app_memsize = 100
+  else
+    app_memsize = my_memsize * 0.5
+  end
+-%>
+<%# Hier ist ein ERB Kommentar -%>
+memsize = <%= app_memsize %>

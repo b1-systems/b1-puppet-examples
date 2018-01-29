@@ -1,0 +1,8 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Notice: Compiled catalog for puppet.local.site in environment production in 0.18 seconds
+Notice: /Stage[main]/Main/File[/tmp/testing.txt]/ensure: created
+Notice: Hallo Welt von notify1
+Notice: /Stage[main]/Main/Notify[notify1]/message: defined 'message' as 'Hallo Welt von notify1'
+Notice: Finished catalog run in 0.03 seconds

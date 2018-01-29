@@ -1,0 +1,15 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+# Meine super Apache Config fuer <%= @domain %>
+# Example Line: <%= @fqdn %>
+
+<VirtualHost <%= @domain %>:<%= @port %>>
+DocumentRoot <%= @docroot %>
+ServerName <%= @domain %>
+
+# Other directives here
+
+</VirtualHost>
+
+

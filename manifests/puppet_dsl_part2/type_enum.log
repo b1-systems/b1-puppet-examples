@@ -1,0 +1,4 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Error: Evaluation Error: Error while evaluating a Resource Statement, Mydefine[Test]: parameter 'myparameter' expects a match for Enum['drei', 'eins', 'zwei'], got String  at /vagrant/type_enum.pp:5 on node puppet.local.site

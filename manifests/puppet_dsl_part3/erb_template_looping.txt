@@ -1,0 +1,15 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Begin foo
+some config
+some more config
+End foo
+Begin bar
+some config
+some more config
+End bar
+Begin baz
+some config
+some more config
+End baz

@@ -1,0 +1,12 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+---
+hieratest::appname: 'super_app'
+hieratest::version: '2'
+hieratest::widgets:
+  - 'flupp'
+  - 'flapp'
+my_ntpservers:
+  - time.microsoft.com
+

@@ -1,0 +1,14 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Notice: Scope(Class[main]): top_variable: Hi. My name is Top Scope
+Notice: Scope(Class[main]): node_variable:
+Notice: Scope(Class[main]): class_variable:
+Notice: Scope(Node[default]): top_variable: Hi. My name is Top Scope
+Notice: Scope(Node[default]): node_variable: Hello from node
+Notice: Scope(Node[default]): class_variable:
+Notice: Scope(Class[Myclass]): top_variable: Hi. My name is Top Scope
+Notice: Scope(Class[Myclass]): node_variable: Hello from node
+Notice: Scope(Class[Myclass]): class_variable: Hello from class
+Notice: Compiled catalog for puppet.local.site in environment production in 0.02 seconds
+Notice: Finished catalog run in 0.03 seconds

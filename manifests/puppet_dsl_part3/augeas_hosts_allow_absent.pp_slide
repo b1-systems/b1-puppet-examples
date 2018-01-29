@@ -1,0 +1,20 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+[...]
+else {
+  augeas { "Remove ${client} from ${process} (not last client)":
+    context => '/files/etc/hosts.allow',
+    changes => "rm *[process='${process}']/client[.='${client}']",
+    onlyif  => "match \
+      *[process='${process}'][count(client)>1]/client[.='${client}'] \
+      size == 1",
+  }
+  augeas { "Remove ${client} from ${process} (last client)":
+    context => '/files/etc/hosts.allow',
+    changes => "rm *[process='${process}']",
+    onlyif  => "match \
+      *[process='${process}'][count(client)=1]/client[.='${client}'] \
+      size == 1",
+  }
+}

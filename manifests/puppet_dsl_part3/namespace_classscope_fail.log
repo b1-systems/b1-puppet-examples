@@ -1,0 +1,4 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Error: Could not find dependency Notify[undef] for Notify[I will configure ] at namespace_classscope_fail.pp:9

@@ -1,0 +1,20 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+define hosts::allow( $process, $ensure=present ) {
+  $client = $name
+  if $ensure == present {
+    augeas { "Add ${client} to ${process} (process not present)":
+      context => '/files/etc/hosts.allow',
+      changes => [ "set 01/process ${process}",
+        "set 01/client[last()+1] ${client}", ],
+      onlyif  => "match *[process='${process}'] size == 0",
+    } ->
+    augeas { "Add ${client} to ${process} (process present)":
+      context => '/files/etc/hosts.allow',
+      changes => "set *[process='${process}']/client[last()+1] ${client}",
+      onlyif  => "match *[process='${process}']/client[.='${client}'] \
+        size == 0",
+    }
+  } else { [...] }
+}

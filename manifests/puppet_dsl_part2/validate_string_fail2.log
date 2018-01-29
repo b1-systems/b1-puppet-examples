@@ -1,0 +1,5 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Warning: Unknown variable: 'var'. at /vagrant/validate_string_fail2.pp:1:4
+Error: Evaluation Error: Error while evaluating a Function Call, $var not defined! at /vagrant/validate_string_fail2.pp:2:3 on node puppet.local.site

@@ -1,0 +1,4 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Error: Evaluation Error: Error while evaluating a Function Call, "" is not an Array.  It looks to be a String at /vagrant/validate_array_fail2.pp:2:1 on node puppet.local.site

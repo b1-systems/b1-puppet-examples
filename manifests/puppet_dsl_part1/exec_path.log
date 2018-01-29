@@ -1,0 +1,8 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Notice: Compiled catalog for puppet.local.site in environment production in 0.06 seconds
+Warning: Exec[Setting PATH](provider=posix): Overriding environment setting 'PATH' with '/bin:/usr/bin'
+Notice: /Stage[main]/Main/Exec[Setting PATH]/returns: PATH = /bin:/usr/bin
+Notice: /Stage[main]/Main/Exec[Setting PATH]/returns: executed successfully
+Notice: Finished catalog run in 0.02 seconds

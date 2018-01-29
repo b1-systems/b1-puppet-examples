@@ -1,0 +1,8 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Error: Could not set 'present' on ensure: No such file or directory - /var/lib/myservice/testfile at 3:file_without_parent_dir.pp
+Error: Could not set 'present' on ensure: No such file or directory - /var/lib/myservice/testfile at 3:file_without_parent_dir.pp
+Wrapped exception:
+No such file or directory - /var/lib/myservice/testfile
+Error: /Stage[main]/Main/File[/var/lib/myservice/testfile]/ensure: change from absent to present failed: Could not set 'present' on ensure: No such file or directory - /var/lib/myservice/testfile at 3:file_without_parent_dir.pp

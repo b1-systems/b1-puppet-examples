@@ -1,0 +1,4 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Error: /Stage[main]/Main/File[/var/tmp/doesnotexist/testing]/ensure: change from absent to file failed: Could not set 'file' on ensure: No such file or directory - /var/tmp/doesnotexist/testing at 3:deps_file_resource_fail.pp

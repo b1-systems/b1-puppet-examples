@@ -1,0 +1,7 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Welcome to kaluha!
+Kernel: Linux 4.10.5
+OperatingSystem: Archlinux
+RAM: 15.56 GiB

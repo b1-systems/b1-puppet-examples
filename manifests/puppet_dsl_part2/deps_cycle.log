@@ -1,0 +1,7 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Notice: Compiled catalog for puppet.local.site in environment production in 0.02 seconds
+Error: Failed to apply catalog: Found 1 dependency cycle:
+(Notify[first message] => Notify[second message] => Notify[first message])
+Try the '--graph' option and opening the resulting '.dot' file in OmniGraffle or GraphViz

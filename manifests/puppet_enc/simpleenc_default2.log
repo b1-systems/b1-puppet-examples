@@ -1,0 +1,12 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Info: Retrieving pluginfacts
+Info: Retrieving plugin
+Info: Caching catalog for client.local.site
+Info: Applying configuration version '1475527414'
+Notice: Notify Ressource
+Notice: /Stage[main]/Main/Node[default]/Notify[Notify Ressource]/message: defined 'message' as 'Notify Ressource'
+Notice: enctest - Parameter: Dies ist ein Default
+Notice: /Stage[main]/Enctest/Notify[helloworld]/message: defined 'message' as 'enctest - Parameter: Dies ist ein Default'
+Notice: Finished catalog run in 0.02 seconds

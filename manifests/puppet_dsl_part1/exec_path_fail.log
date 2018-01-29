@@ -1,0 +1,5 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Notice: Compiled catalog for puppet.local.site in environment production in 0.06 seconds
+Error: Validation of Exec[Setting PATH] failed: 'echo PATH = $PATH' is not qualified and no path was specified. Please qualify the command or specify a path. at exec_path_fail.pp:5
