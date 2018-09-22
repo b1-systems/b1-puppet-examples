@@ -7,7 +7,7 @@ class myclass {
   $variable1 = 'Hello from myclass'
   file { '/var/tmp/template_scope':
     ensure  => file,
-    content => template('scope.erb'),
+    content => template('mytemplates/scope.erb'),
   }
 }
 

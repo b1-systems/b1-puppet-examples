@@ -5,12 +5,12 @@ $var1 = 'Ottokarl Hinterhuber'
 $var2 = 'IT Department'
 
 file { '/var/tmp/epp_test':
-  content => epp('params.epp', { 'kontakt'   => $var1,
-                                 'abteilung' => $var2 }),
+  content => epp('mytemplates/params.epp', { 'kontakt'   => $var1,
+                                             'abteilung' => $var2 }),
 }
 
 file { '/var/tmp/epp_test2':
-  content => epp('params.epp', { 'kontakt'   => 'Josef Maier',
-                                 'abteilung' => 'Sales',
-                                 'support'   => '8x5', }),
+  content => epp('mytemplates/params.epp', { 'kontakt'   => 'Josef Maier',
+                                             'abteilung' => 'Sales',
+                                             'support'   => '8x5', }),
 }
