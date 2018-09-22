@@ -2,6 +2,6 @@
 # license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
 
 Notice: Compiled catalog for puppet.local.site in environment production in 0.02 seconds
-Error: Failed to apply catalog: Found 1 dependency cycle:
-(Notify[first message] => Notify[second message] => Notify[first message])
-Cycle graph written to /var/lib/puppet/state/graphs/cycles.dot.
+Error: Found 1 dependency cycle:
+(Notify[first message] => Notify[second message] => Notify[first message])\nCycle graph written to /opt/puppetlabs/puppet/cache/state/graphs/cycles.dot.
+Error: Failed to apply catalog: One or more resource dependency cycles detected in graph

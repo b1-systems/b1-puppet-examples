@@ -1,8 +1,6 @@
 # copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
 # license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
 
-# before trying out remove comment lines, since json doesn't allow comments
-
-{
-  "ein_json_fact":"JSON: Beispiel"
+if str2bool($is_virtual) {
+  notice( 'I am on a virtual machine' )
 }
