@@ -1,7 +1,7 @@
 # copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
 # license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
 
-case $::facts['osfamily'] {
+case $facts['osfamily'] {
   'RedHat': {
     $httpd_package = 'httpd'
     $httpd_service = 'httpd'
@@ -10,7 +10,7 @@ case $::facts['osfamily'] {
     $httpd_package = 'apache2'
     $httpd_service = 'apache2'
   }
-  default: { fail("OS family ${::facts['osfamily']} not supported") }
+  default: { fail("OS family ${facts['osfamily']} not supported") }
 }
 
 package { "$httpd_package":
