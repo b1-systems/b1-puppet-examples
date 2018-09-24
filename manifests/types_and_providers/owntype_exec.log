@@ -1,0 +1,7 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+Notice: Compiled catalog for puppet.local.site in environment production in 0.16 seconds
+Notice: /Stage[main]/Main/Exec[gitrepo]/returns: Cloning into 'hellogitworld'...
+Notice: /Stage[main]/Main/Exec[gitrepo]/returns: executed successfully
+Notice: Applied catalog in 2.44 seconds
