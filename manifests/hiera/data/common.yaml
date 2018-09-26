@@ -2,7 +2,12 @@
 # license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
 
 ---
+classification:
+  classes:
+    - hieratest
 continent: Atlantis
+hieratest::appname: 'hiera42'
+hieratest::version: '42.0'
 hieratest::widgets:
   - 'common1'
   - 'common2'
@@ -10,3 +15,4 @@ my_ntpservers:
   - de.pool.ntp.org
   - time.apple.com
 backup_server: 'foobar.example.com'
+foo: 'bar'

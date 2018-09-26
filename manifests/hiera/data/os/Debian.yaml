@@ -4,4 +4,3 @@
 ---
 hieratest::appname: 'my_enterprise_workload'
 hieratest::version: '13'
-

@@ -2,6 +2,5 @@
 # license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
 
 ---
-hieratest::appname: 'my_suse_app'
-hieratest::version: '3'
-
+hieratest::appname: 'another_enterprise_workload'
+hieratest::version: '1.5'
