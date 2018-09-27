@@ -9,7 +9,7 @@ class ssh inherits ssh::params {
 
   anchor { 'ssh::begin': }
     Class['ssh::install'] ->
-    Class['ssh::config'] ->
+    Class['ssh::config'] ~>
     Class['ssh::service'] ->
   anchor { 'ssh::end': }
 }
