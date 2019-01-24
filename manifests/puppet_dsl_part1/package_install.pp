@@ -10,5 +10,5 @@ package { 'nmap':
 }
 
 package { 'lsof':
-  ensure => '4.87-5.el7',
+  ensure => '4.87-6.el7',
 }
