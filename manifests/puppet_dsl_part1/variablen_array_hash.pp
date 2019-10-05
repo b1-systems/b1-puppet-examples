@@ -3,7 +3,8 @@
 
 $calc1 = 10 + 2.5
 $calc2 = $calc1 / 2
-notify { $calc2: }
+notify { "calc2 = ${calc2}": }
+#notice( $calc2 )
 
 $myarray = [ 'eins', 'zwei', 'drei' ]
 notify { $myarray[1]: } #[-1] waere 'drei'
