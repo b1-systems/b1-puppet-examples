@@ -13,11 +13,11 @@ case $facts['osfamily'] {
   default: { fail("OS family ${facts['osfamily']} not supported") }
 }
 
-package { "$httpd_package":
+package { $httpd_package:
   ensure => installed,
 }
 
-service { "$httpd_service":
+service { $httpd_service:
   ensure  => running,
   enable  => true,
   require => Package[$httpd_package],
