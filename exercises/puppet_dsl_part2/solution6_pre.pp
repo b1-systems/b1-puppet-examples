@@ -11,7 +11,8 @@ file { '/var/lib/puppet/files/cron':
 
 file { '/var/lib/puppet/files/cron/foobar':
   ensure  => file,
-  content => "#!/bin/sh
-echo foobar
-",
+  content => @("EOT")
+    #!/bin/sh
+    echo foobar
+    | EOT
 }
