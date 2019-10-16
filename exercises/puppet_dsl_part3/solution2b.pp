@@ -2,10 +2,10 @@
 # license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
 
 class app1() {
-  ensure_packages('vsftpd', { ensure => absent })
+  ensure_packages('vsftpd', { ensure => latest })
 }
 class app2() {
-  ensure_packages('vsftpd', { ensure => present })
+  ensure_packages('vsftpd', { ensure => latest })
 }
 
 include app1

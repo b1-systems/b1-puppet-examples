@@ -12,7 +12,7 @@ define apache::vhost (
   $vhost_dir = $::apache::params::vhost_dir
 
   file { "${vhost_dir}/${servername}.conf":
-    content => template('apache/vhost_default.conf.erb'),
+    content => epp('apache/vhost_default.conf.epp', { 'servername' => $servername, 'port' => $port, 'docroot' => $docroot }),
     owner   => $::apache::params::user,
     group   => $::apache::params::group,
     mode    => '0644',
