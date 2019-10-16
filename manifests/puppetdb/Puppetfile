@@ -1,0 +1,18 @@
+moduledir 'modules'
+
+mod 'puppetlabs/puppetdb'
+mod 'puppetlabs/firewall'
+mod 'puppetlabs/inifile'
+mod 'puppetlabs/translate'
+mod 'puppetlabs/postgresql'
+mod 'puppetlabs/apt'
+mod 'puppetlabs/concat'
+mod 'puppetlabs/stdlib'
+mod 'puppetlabs/apache'
+mod 'puppetlabs/vcsrepo'
+mod 'puppet/python'
+mod 'stahnma-epel'
+
+mod 'puppetboard',
+  :git => 'https://github.com/voxpupuli/puppet-puppetboard',
+  :commit => '48fc87a6ddb034b7bd87e73f8bba06f12a0fe9a9'
