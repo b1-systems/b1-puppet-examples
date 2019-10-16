@@ -4,6 +4,6 @@
 $conf_values = [ 'foo', 'bar', 'baz' ]
 
 file { '/var/tmp/epp_looping':
-  ensure   => file,
-  content  => epp('mytemplates/looping.epp', { 'conf_values' => $conf_values })
+  ensure  => file,
+  content => epp('mytemplates/looping.epp', { 'conf_values' => $conf_values })
 }

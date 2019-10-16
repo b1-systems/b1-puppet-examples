@@ -4,8 +4,8 @@
 class apache {
   case $facts['osfamily'] {
     'RedHat': {
-    $httpd_package = 'httpd'
-    $httpd_service = 'httpd'
+      $httpd_package = 'httpd'
+      $httpd_service = 'httpd'
     }
     'Suse': {
       $httpd_package = 'apache2'
