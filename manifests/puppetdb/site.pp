@@ -24,7 +24,12 @@ node 'puppet.local.site' {
     vhost_name => 'puppet.local.site',
     port       => 8088,
   }
-  firewall { '100 Puppetboard inbound':
+  firewall { '100 Puppetserver inbound':
+    dport  => 8140,
+    proto  => tcp,
+    action => accept,
+  }
+  firewall { '101 Puppetboard inbound':
     dport  => 8088,
     proto  => tcp,
     action => accept,
