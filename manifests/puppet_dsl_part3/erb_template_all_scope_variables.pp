@@ -6,5 +6,5 @@ $hello = '5'
 
 file { '/var/tmp/all_scope_variables':
   ensure  => file,
-  content => template('all_scope_variables.erb'),
+  content => template('mytemplates/all_scope_variables.erb'),
 }

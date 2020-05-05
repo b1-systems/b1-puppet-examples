@@ -3,9 +3,8 @@
 
 notify{ 'second message':
   message => 'Should be printed after first message',
+  before  => Notify['first message'],
 }
-
-->
 
 notify{ 'first message':
   message => 'Should be printed first',

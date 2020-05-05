@@ -1,7 +1,7 @@
 # copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
 # license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
 
-case $::facts['os']['name'] {
+case $facts['os']['name'] {
   'RedHat', 'CentOS':  { $a_config = '/etc/httpd/conf.d/app.conf' }
   /^(Debian|Ubuntu)$/: { $a_config = '/etc/apache2/sites-available/app' }
   'SLES', 'OpenSuSE':  { $a_config = '/etc/apache2/vhosts.d/app.conf' }

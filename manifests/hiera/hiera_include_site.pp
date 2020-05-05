@@ -4,11 +4,11 @@
 # This logic will fetch a list of classes from hiera and include it
 # here so puppet uses them for catalog compilation
 $classification = lookup({'name' => 'classification',
-        'merge' => {
-          'strategy' => 'deep',
-          'knockout_prefix' => '--',
-          'sort_merged_arrays' => true
-        }
+  'merge' => {
+    'strategy' => 'deep',
+    'knockout_prefix' => '--',
+    'sort_merged_arrays' => true
+  }
 })
 
-$classification['classes'].include
+[ $classification['classes'] - $classification['exclude_classes'] ].include

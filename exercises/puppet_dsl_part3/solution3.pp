@@ -3,6 +3,6 @@
 
 file { '/tmp/sysinfo':
   ensure  => file,
-  #content => template('sysinfo.erb'),
-  content => template('mytemplates/sysinfo.erb'),
+  #content => template('mytemplates/sysinfo.erb'),
+  content => epp('mytemplates/sysinfo.epp'),
 }

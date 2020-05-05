@@ -5,5 +5,5 @@ $conf_values = [ 'foo', 'bar', 'baz' ]
 
 file { '/var/tmp/erb_looping':
   ensure  => file,
-  content => template('looping.erb')
+  content => template('mytemplates/looping.erb')
 }

@@ -4,7 +4,7 @@
 $heredoc2 = @("EOT")
 First line
 Second line
-${::fqdn}
+${facts['fqdn']}
 EOT
 
 notify { "heredoc2: ${heredoc2}": }

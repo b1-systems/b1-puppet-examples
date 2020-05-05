@@ -1,0 +1,12 @@
+<%# copyright: B1 Systems GmbH <info@b1-systems.de>, 2019 -%>
+<%# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html -%>
+<%-| $servername, $port, $docroot |-%>
+<VirtualHost <%= $servername %>:<%= $port %>>
+   ServerName <%= $servername  %>
+   DocumentRoot <%= $docroot %>
+
+   <Directory "<%= $docroot %>">
+      Order allow,deny
+      Allow from all
+   </Directory>
+</VirtualHost>

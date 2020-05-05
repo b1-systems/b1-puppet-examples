@@ -4,5 +4,5 @@
 # ls /etc/puppetlabs/code/environments
 # r10k deploy display
 # r10k deploy environment -pv
-# ls /etc/puppetlabs/code/environments/*
+# ls /etc/puppetlabs/code/environments
 # r10k deploy display

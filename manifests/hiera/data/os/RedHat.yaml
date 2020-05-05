@@ -9,4 +9,3 @@ hieratest::widgets:
   - 'flapp'
 my_ntpservers:
   - time.microsoft.com
-

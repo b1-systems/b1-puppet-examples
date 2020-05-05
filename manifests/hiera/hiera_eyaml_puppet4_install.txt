@@ -1,7 +1,9 @@
 # copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
 # license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
 
-To enable eyaml with Puppet Server:
-sudo /opt/puppetlabs/bin/puppetserver gem install hiera-eyaml
-To enable eyaml on the command line and with puppet apply:
-sudo /opt/puppetlabs/puppet/bin/gem install hiera-eyaml
+# # To enable eyaml with Puppet Server:
+# /opt/puppetlabs/bin/puppetserver gem install hiera-eyaml
+
+# # To enable eyaml on the command line and with puppet apply:
+# /opt/puppetlabs/puppet/bin/gem install hiera-eyaml
+# ln -sv /opt/puppetlabs/puppet/bin/wrapper.sh /opt/puppetlabs/bin/eyaml

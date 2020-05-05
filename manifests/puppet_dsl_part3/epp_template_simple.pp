@@ -5,5 +5,5 @@ $variable1 = 'Hello World'
 
 file { '/var/tmp/epp_template_simple':
   ensure  => file,
-  content => epp('simple.epp'),
+  content => epp('mytemplates/simple.epp'),
 }

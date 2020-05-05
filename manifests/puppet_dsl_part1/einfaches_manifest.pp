@@ -5,7 +5,7 @@ file { 'meine testdatei':
   ensure => file,
   path   => '/tmp/file_managed_by_puppet.txt',
 }
-notify { 'Testnachricht': 
+notify { 'Testnachricht':
   message => 'This is only a test',
 }
 notify { 'Hello World': }

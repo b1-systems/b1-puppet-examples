@@ -3,10 +3,11 @@
 
 $calc1 = 10 + 2.5
 $calc2 = $calc1 / 2
-notice( $calc2 )
+notify { "calc2 = ${calc2}": }
+#notice( $calc2 )
 
 $myarray = [ 'eins', 'zwei', 'drei' ]
-notice( $myarray[1] ) #[-1] waere 'drei'
+notify { $myarray[1]: } #[-1] waere 'drei'
 
 $myhash = { key1 => 'foobar', key2 => 'baz' }
-notice( $myhash[key2] )
+notify { $myhash[key2]: }

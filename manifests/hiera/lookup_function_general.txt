@@ -1,7 +1,7 @@
 # copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
 # license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
 
-# lookup( name, type, merge behaviour, default )
+# lookup( name, value_type, merge_behaviour, default_value )
 # alternativ lookup( options_hash )
 
 lookup('backup_server')

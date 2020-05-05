@@ -1,0 +1,15 @@
+# copyright: B1 Systems GmbH <info@b1-systems.de>, 2018
+# license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
+
+---
+plain_property: You can see me
+secure_property: >
+  ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+  DQYJKoZIhvcNAQEBBQAEggEAbcYlrQ2JJS2TacnU/zHYTsgS3u/C1un0/YFO
+  gsHDYhlt4irbu3pAH4wPn5WYITe8MBy97DxYY4KlZlnhhRwU/BLUtHPrKF0N
+  DY3e3IcDsJ+iTqw2o9bAVeDKglH0d0uniilbGwwzrgyT8RLx5jw2A3kthVb1
+  kWLQ3j6fX42ycnhmYa6eEw9561eAtE8A9k8vsaNNAVELPnnAG0mvF0dy36DG
+  8js8W6npiQXnNigeurPhAnOwGQ2/0Gx/0FOan+wd9+2E1foBAp4aPENfMVqi
+  dAxCF0tom6ZEd1+001Fb8+EyDVaKW7hll93lHd8QV0DtvkwoCyQEY7iAXrPt
+  m+ePFTA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBAYiUskN17OcNkSB/D3
+  5wZggBA4w3sD2ZIu/ikV7Hv0YDAa]

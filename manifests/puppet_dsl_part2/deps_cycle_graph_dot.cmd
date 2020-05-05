@@ -2,4 +2,4 @@
 # license:   GPLv3+, http://www.gnu.org/licenses/gpl-3.0.html
 
 # puppet resource package graphviz ensure=present
-# dot -Tpng /var/lib/puppet/state/graphs/cycles.dot -o cycle.png
+# dot -Tpng /opt/puppetlabs/puppet/cache/state/graphs/cycles.dot -o cycle.png

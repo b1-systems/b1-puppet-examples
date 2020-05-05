@@ -6,8 +6,7 @@ puppet # cat > Puppetfile <<EOF
 moduledir 'modules'
 mod 'puppetlabs-stdlib'
 mod 'puppetlabs-ntp'
-mod 'puppetlabs-puppetdb'
 EOF
 puppet # git add Puppetfile
-puppet # git commit -m 'Added Puppetfile.'
+puppet # git commit -m 'Add Puppetfile.'
 puppet # git push origin production

@@ -3,7 +3,7 @@
 
 $variable1 = 'Hello World'
 
-file { '/var/tmp/template_simple':
+file { '/var/tmp/erb_template_simple':
   ensure  => file,
-  content => template('simple.erb'),
+  content => template('mytemplates/simple.erb'),
 }

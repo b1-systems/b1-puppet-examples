@@ -3,9 +3,9 @@
 
 file { '/var/tmp/motd':
   ensure  => file,
-  content => "Welcome to ${::facts['networking']['hostname']}!
-Kernel: ${::facts['kernel']} ${::facts['kernelversion']}
-OperatingSystem: ${::facts['os']['family']}
-RAM: ${::facts['memory']['system']['total']}
+  content => "Welcome to ${facts['networking']['hostname']}!
+Kernel: ${facts['kernel']} ${facts['kernelversion']}
+OperatingSystem: ${facts['os']['family']}
+RAM: ${facts['memory']['system']['total']}
 ",
 }
